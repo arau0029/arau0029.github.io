@@ -7,5 +7,34 @@ p, li {
 }
 
 section h1 {
-    
+    color: rgb(190, 146, 49);
+}
+
+.secondary-heading {
+    color:darkcyan;
+}
+
+#main-section {
+    font-weight: bold;
+}
+
+/* LINK VISITED HOVER ACTIVE (LVHA)*/
+a:link, a:visited{
+    color: darkorchid;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: pink;
+}
+
+a[href="http://google.com"] {
+    font-size: larger;
+}
+
+section p:nth-child(2) {
+   font-style: italic; 
 }
