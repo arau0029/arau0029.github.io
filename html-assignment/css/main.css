@@ -22,6 +22,17 @@ li:nth-child(odd) {
     background-color: #c7cedb;
 }
 
-nav>a {
+a:link, a:visited{
+    color: #fff;
+    text-decoration: none;
     background-color: #94849b;
+}
+
+a:hover {
+    background-color: #7e9181;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #2e3532;
 }
