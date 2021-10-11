@@ -3,11 +3,11 @@ body {
 }
 
 header, footer {
-    background-color: #94849b;
+    background-color: #3d2645;
 }
 
 .site-title {
-    color: #201624;
+    color: #fff;
 }
 
 #my-image {
@@ -20,4 +20,8 @@ li {
 
 li:nth-child(odd) {
     background-color: #c7cedb;
+}
+
+nav>a {
+    background-color: #94849b;
 }
