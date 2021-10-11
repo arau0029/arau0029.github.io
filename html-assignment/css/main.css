@@ -26,6 +26,7 @@ a:link, a:visited{
     color: #fff;
     text-decoration: none;
     background-color: #94849b;
+    border-radius: 10px;
 }
 
 a:hover {
