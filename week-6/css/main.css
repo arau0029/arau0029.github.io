@@ -1,3 +1,6 @@
+html {
+    font-size: 16px;
+}
 body {
     font-family: Verdana, arial, sans-serif;
     font-size: 16px;
@@ -6,6 +9,15 @@ body {
     background-image: url("../images/white_brick_wall.png");
     background-repeat: no-repeat;
     background-position: 100px 500px; /*should be used sparingly*/
+}
+
+header {
+    background-color: cadetblue;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
 }
 
 .bolded {
