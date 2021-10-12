@@ -12,7 +12,9 @@ body {
 }
 
 header {
+    color: white;
     background-color: cadetblue;
+    background-size: cover; /*it fits as best as possible; contain repeats the image if it doesn' fill perfectly and resizes the image so you can always see the entire*/
     height: 100vh;
 }
 
