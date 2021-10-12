@@ -4,6 +4,10 @@ body {
     line-height: 1.5;
 }
 
-p:nth-child(3) {
-    font-weight: 800;
+.bolded {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
