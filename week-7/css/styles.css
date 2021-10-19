@@ -9,6 +9,6 @@
 }
 
 .box1 {
-    /*margin: /*top and bottom*/10px /*right and left*/20px;*/
+    /*margin: (top and bottom)10px (right and left)20px;*/
     margin: 0 auto; /*center the WHOLE element, not just the text (text only is text-align)*/
 }
