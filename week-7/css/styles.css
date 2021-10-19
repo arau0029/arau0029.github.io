@@ -1,3 +1,24 @@
+/* 
+html{
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+*/
+
+/*
+nav {
+    float: left; (better used for images; moves elements left and right. have a width set!!)
+}
+*/
+
+nav ul li {
+    display: inline-block; /*property of width and height will have no effect on only inline, but it does work w inline-block*/
+}
+
 .box {
     width: 200px;
     background-color: #369;
@@ -6,9 +27,42 @@
     padding: 10px;
     border: 5px solid #900;
     margin: 10px; /*personal bubble; not visual*/
+    float: right; /*FROM the right*/
 }
 
 .box1 {
     /*margin: (top and bottom)10px (right and left)20px;*/
     margin: 0 auto; /*center the WHOLE element, not just the text (text only is text-align)*/
+}
+
+.box2 {
+    box-sizing: content-box; /*nothing changes; default*/
+}
+
+.box3 {
+    box-sizing: border-box; /*total width w/ margins and etc is within that 200px*; u can just write this on the html rules*/
+}
+
+/*.clear {
+    clear: right; (look up the clear-fix module)
+}
+*/
+
+.clearfix:after {
+    content: "";
+    display: block; /*block or table*/
+    clear: both;
+}
+
+/*^^NOT THE BEST WAY TO CREAT LAYOUTS*/
+
+.stage {
+    height: 500px;
+    background-color: #aaa;
+}
+
+.prop {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
 }
