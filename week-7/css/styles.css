@@ -58,11 +58,20 @@ nav ul li {
 
 .stage {
     height: 500px;
-    background-color: #aaa;
+    background-color: rgb(224, 222, 222);
 }
 
 .prop {
     width: 100px;
     height: 100px;
     background-color: cadetblue;
+    position: relative; /*relative to where it was before; absolute is a lot like float, can move it outside of it's property relative to the viewport; that's probably how you make the nav glue to the top of the vp THAT ONLY HAPPENS IF NO ELEMENT HAS THE POSITION RELATIVE*/
+    top: 100px; /*you can use negative values*/
 }
+/*
+    position: fixed;
+    top: 0px;
+    right: 0px;
+*/
+
+/*z-value for overlapping situations... try to not overlap anything*/
