@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lone Starfish</title>
+    <link rel="reset" href="css/reset.css">
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 
@@ -53,7 +54,23 @@
                 <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
             </ul>
         </article>
-
+        <h2>Contact to learn more</h2>
+        <form action="thanks.html" method="post">
+            <label for="name">Your Name</label>
+            <input id="name" type="text" name="name">
+            <label for="email">Your Email</label>
+            <input id="email" type="email" name="email">
+            <label for="message">Your Message</label>
+            <input id="message" type="text" name="message">
+            <h3>Would you like to visit the starfish?</h3>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="visit" value="yes">
+            <label for="some">No</label>
+            <input type="radio" id="some" name="visit" value="no">
+            <label for="alot">Maybe</label>
+            <input type="radio" id="alot" name="visit" value="maybe">
+            <input id="button" type="button" value="send">
+        </form>
     </main>
     <footer>© Lone Starfish.</footer>
 </body>
