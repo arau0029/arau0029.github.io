@@ -3,9 +3,17 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: sans-serif; 
 }
 
 h1 {
     color: #fff;
+}
+
+form {
+    border: 1px solid #000;
+}
+
+.block {
+    display: block;
 }
