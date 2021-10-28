@@ -2,6 +2,10 @@ html {
     background-color: #aad4cf;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 h1 {
     color: #fff;
 }
