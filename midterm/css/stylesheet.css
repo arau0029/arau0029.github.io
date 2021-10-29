@@ -1,6 +1,6 @@
 html {
     background-color: #aad4cf;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 body {
@@ -60,7 +60,7 @@ p {
 }
 
 .small {
-    width: 200px;
+    width: 15.5rem;
     float:left;
 }
 
@@ -78,12 +78,12 @@ h3 {
 }
 
 .button {
-    font-size: 0.55rem;
+    font-size: 0.6rem;
     text-transform: uppercase;
     border: 1px solid #000;
     background-color: #d4e9e7;
     text-align: center;
-    padding: 1.25em;
+    padding: 1.1em;
 }
 
 .button:hover {
