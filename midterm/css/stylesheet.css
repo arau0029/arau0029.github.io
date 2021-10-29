@@ -1,9 +1,11 @@
 html {
     background-color: #aad4cf;
+    font-size: 16px;
 }
 
 body {
     font-family: sans-serif;
+    background-color: #d4e9e7;
     margin: 0 auto;
 }
 
@@ -11,9 +13,10 @@ h1 {
     color: #fff;
 }
 
-li {
+.nav {
     margin: auto;
     display: inline-block;
+    text-transform: uppercase;
 }
 
 p {
@@ -28,3 +31,21 @@ form {
 .block {
     display: block;
 }
+
+.button {
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    background-color: #d4e9e7;
+    text-align: center;
+    padding: 1.25em;
+}
+
+.button:hover {
+    background-color: #aad4cf;
+}
+
+.button:active {
+    background-color: #77bdb5;
+}
+
