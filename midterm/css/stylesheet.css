@@ -27,7 +27,13 @@ body {
 h1 {
     color: #fff;
     background-image: url("../image/lone-starfish-wide.jpg");
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+nav>ul {
+    text-align: center;
 }
 
 .nav {
