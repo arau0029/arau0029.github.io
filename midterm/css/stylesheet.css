@@ -33,13 +33,19 @@ h1 {
 }
 
 nav>ul {
+    padding: 0;
     text-align: center;
 }
 
 .nav {
-    margin: auto;
     display: inline-block;
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #000;
 }
 
 p {
