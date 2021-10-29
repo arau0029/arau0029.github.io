@@ -1,5 +1,6 @@
 html {
     background-color: #aad4cf;
+    font-size: 16px;
 }
 
 body {
@@ -7,29 +8,28 @@ body {
     margin: 0 auto;
 }
 
-/**.box {
-    float: left;
-}
-
-.side {
-    background-color: #aad4cf;
-    width: 15%;
-    height: 100vh;
-}
-
 .content {
+    margin: 0 auto 15px;
     background-color: #d4e9e7;
-    padding: 0px 5px 30px;
-    width: 500px;
-    height: 100vh;
-}**/
+    padding: 0px 10px 30px;
+    width: 75%;
+}
 
 h1 {
     color: #fff;
-    background-image: url("../image/lone-starfish-wide.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-size: 3rem;
     text-align: center;
+}
+
+.header {
+    margin: 0 auto;
+    display: block;
+    width: 500px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 nav>ul {
@@ -38,6 +38,7 @@ nav>ul {
 }
 
 .nav {
+    font-size: 1.5rem;
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
@@ -50,7 +51,7 @@ a:link, a:visited {
 
 p {
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .small {
@@ -61,6 +62,10 @@ p {
 form {
     border: 1px solid #000;
     padding: 30px 15px 15px;
+}
+
+h3 {
+    font-weight: normal;
 }
 
 .block {
