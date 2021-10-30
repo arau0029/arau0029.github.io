@@ -92,6 +92,22 @@ h3 {
     font-weight: normal;
 }
 
+
+input {
+    margin-top: 0.6em;
+    margin-bottom: 1.5em;
+}
+
+.thin {
+    width: 99%;
+    height: 2em;
+}
+
+.thick {
+    width: 99%;
+    height: 100px;
+}
+
 .block {
     display: block;
 }
@@ -103,6 +119,7 @@ h3 {
     background-color: #d4e9e7;
     text-align: center;
     padding: 1.1em;
+    margin: 0;
 }
 
 .button:hover {
