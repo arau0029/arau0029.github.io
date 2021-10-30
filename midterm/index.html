@@ -11,15 +11,17 @@
 </head>
 
 <body>
-    <div class="box content">
+    <div class="content">
         <header>
-            <img src="image/lone-starfish-wide.jpg" alt="starfish" class="header">
-            <h1>Lone Starfish</h1>
+            <div class="header">
+                <img src="image/lone-starfish-wide.jpg" alt="starfish" class="img__header">
+                <h1>Lone Starfish</h1>
+            </div>
             <nav>
-                <ul>
-                    <li class="nav"><a href="#">Home</a></li>
-                    <li class="nav"><a href="#">Story</a></li>
-                    <li class="nav"><a href="#">Contact</a></li>
+                <ul id="nav__ul">
+                    <li class="nav first__item"><a href="#">Home</a></li>
+                    <li class="nav second__item"><a href="#">Story</a></li>
+                    <li class="nav third__item"><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -69,11 +71,11 @@
             <h2>Contact to learn more</h2>
             <form action="thanks.html" method="post">
                 <label for="name" class="block">Your Name</label>
-                <input id="name" type="text" name="name" class="block" required>
+                <input id="name" type="text" name="name" class="block thin" required>
                 <label for="email" class="block">Your Email</label>
-                <input id="email" type="email" name="email" class="block" required>
+                <input id="email" type="email" name="email" class="block thin" required>
                 <label for="message" class="block">Your Message</label>
-                <input id="message" type="text" name="message" class="block">
+                <input id="message" type="text" name="message" class="block thick">
                 <h3>Would you like to visit the starfish?</h3>
                 <label for="yes">Yes</label>
                 <input type="radio" id="yes" name="visit" value="yes" required>
