@@ -12,20 +12,33 @@ body {
     margin: 0 auto 15px;
     background-color: #d4e9e7;
     padding: 0;
-    width: 75%;
+    width: 70%;
+    position: relative;
+    z-index: -2;
+}
+
+.header{
+    position: relative;
 }
 
 h1 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.8rem;
+    font-weight: lighter;
     text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    top: 57%;
 }
 
-.header {
+.img__header {
     margin: 0;
     display: block;
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: -1;
 }
 
 main {
@@ -33,8 +46,10 @@ main {
 }
 
 h2 {
-    font-weight: bold;
-    font-size: 2rem;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
 }
 
 nav>ul {
@@ -46,7 +61,7 @@ nav>ul {
     font-size: 1.5rem;
     display: inline-block;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 a:link, a:visited {
