@@ -86,11 +86,11 @@ a:link, a:visited {
 }
 
 a:hover {
-
+    background-color: #aad4cf;
 }
 
 a:active {
-
+    background-color: #77bdb5;
 }
 
 h2 {
