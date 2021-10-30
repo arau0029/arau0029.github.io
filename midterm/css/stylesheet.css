@@ -47,8 +47,8 @@ main {
 
 h2 {
     font-weight: lighter;
-    font-size: 1.6rem;
-    margin-top: 1em;
+    font-size: 2rem;
+    margin-top: 0.8em;
     margin-bottom: 0.3em;
 }
 
@@ -71,12 +71,16 @@ a:link, a:visited {
 
 p {
     line-height: 1.5;
-    font-size: 1rem;
+    font-size: 0.95rem;
+    margin: 0;
+    margin-right: 20px;
 }
 
 .small {
     width: 15.5rem;
     float:left;
+    margin-right: 25px;
+    margin-bottom: 35px;
 }
 
 form {
