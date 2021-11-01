@@ -11,8 +11,10 @@
 </head>
 
 <body>
+    <!--The div .content was created to have more control over the content inside it.-->
     <div class="content">
         <header>
+            <!--The div here was created to separate the img part of the header from the nav bar when editting.-->
             <div class="header">
                 <img src="image/lone-starfish-wide.jpg" alt="starfish" class="img__header">
                 <h1>Lone Starfish</h1>
@@ -26,7 +28,7 @@
             </nav>
         </header>
         <main>
-            <article class=".clearfix">
+            <article>
                 <h2>Life of a Starfish</h2>
                 <img src="image/lone-starfish.jpg" alt="starfish" class="small">
                 <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper
@@ -69,6 +71,8 @@
                 </ul>
             </article>
             <h2>Contact to learn more</h2>
+            <!--Some elements have the class .block so their displays could be changed in css.
+                In addition, I made the inputs required so people cannot send blank forms.-->
             <form action="thanks.html" method="post">
                 <label for="name" class="block">Your Name</label>
                 <input id="name" type="text" name="name" class="block thin" required>

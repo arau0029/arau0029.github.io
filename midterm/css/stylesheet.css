@@ -8,12 +8,16 @@ body {
     margin: 0 auto;
 }
 
+/**The width % was used to create the blank space on the sides of the main content.**/
+
 .content {
     margin: 0 auto 15px;
     background-color: #d4e9e7;
     padding: 0;
     width: 70%;
 }
+
+/**I gave the position relative for .header so I could position h1 above the img with position:absolute;.**/
 
 .header{
     position: relative;
@@ -29,6 +33,10 @@ h1 {
     width: 100%;
     top: 57%;
 }
+
+/** The header img has a position so I could fix the z-index and place the img behind the text.
+
+    The width and height were determined so the image isn't stretched in different monitors.**/
 
 .img__header {
     margin: 0;
@@ -46,7 +54,6 @@ main {
 #nav__ul {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 .nav {
@@ -61,6 +68,8 @@ main {
     padding-bottom: .5rem;
     border-right: 2px solid  rgb(145, 164, 165);
 }
+
+/**The next 3 sets of rules are used to make the nav list items stand side-by-side in a single line**/ 
 
 .first__item {
     width: 33%;
@@ -130,6 +139,8 @@ input {
     width: 99%;
     height: 2em;
 }
+
+/**Makes the message box bigger**/
 
 .thick {
     width: 99%;
