@@ -34,10 +34,12 @@
                         <li class="team"><a href="#">Team</a></li>
                         <li class="contact"><a href="#">Contact</a></li>
                     </ul>
-                    <form class="search-f" action="search.html" method="post">
-                        <input class="search" id="search" type="text" name="search" placeholder="Search">
-                        <button class="search-b" type="submit"><i class="fa fa-search"></i></button>
-                    </form>
+                    <div class="search-container">
+                        <form class="search-f" action="search.html" method="post">
+                            <input class="search" id="search" type="text" name="search" placeholder="Search">
+                            <button class="search-b" type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
                 </nav>
             </div>
             <div class="intro">
@@ -54,15 +56,21 @@
     <main>
         <div class="container">
             <section class="about">
-                <img src="image/about-us.jpg" alt="ping-pong table">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem
-                    asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint
-                    praesentium laboriosam perferendis eius amet ad?
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus,
-                    excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum
-                    cum in exercitationem?</p>
+                <div class="about-img">
+                    <img src="image/about-us.jpg" alt="ping-pong table">
+                </div>
+                <div class="about-txt">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem
+                        asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe
+                        sint
+                        praesentium laboriosam perferendis eius amet ad?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus,
+                        excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis
+                        rerum
+                        cum in exercitationem?</p>
+                </div>
             </section> <!-- end section about-->
             <div class="contain-s">
                 <section class="services">
@@ -172,40 +180,42 @@
                 </section> <!-- end section team-->
                 <section class="contact">
                     <h2>Contact Us</h2>
-                    <div class="contact-form">
-                        <h3>Send us a message</h3>
-                        <form action="thanks.html" method="post">
-                            <label for="name" class="block">Full Name</label>
-                            <input id="name" type="text" name="name" class="padding" required>
-                            <label for="email" class="block">Email</label>
-                            <input id="email" type="email" name="email" class="padding" required>
-                            <label for="message" class="block">Message</label>
-                            <input id="message" type="text" name="message" class="message padding">
-                            <input class="form-button" id="button" type="button" value="Send">
-                        </form>
-                    </div>
-                    <div>
-                        <h3>Hours of operation</h3>
-                        <table>
-                            <tr>
-                                <th>Days</th>
-                                <th>Hours</th>
-                            </tr>
-                            <tr>
-                                <td>Monday - Friday</td>
-                                <td>9 AM - 6 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday - Sunday</td>
-                                <td>Closed</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div>
-                        <h3>Location</h3>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44863.11580051551!2d-75.78995572089842!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1638245354136!5m2!1sen!2sca"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="flex-contact">
+                        <div class="contact-form">
+                            <h3>Send us a message</h3>
+                            <form action="thanks.html" method="post">
+                                <label for="name" class="block">Full Name</label>
+                                <input id="name" type="text" name="name" class="padding" required>
+                                <label for="email" class="block">Email</label>
+                                <input id="email" type="email" name="email" class="padding" required>
+                                <label for="message" class="block">Message</label>
+                                <input id="message" type="text" name="message" class="message padding">
+                                <input class="form-button" id="button" type="button" value="Send">
+                            </form>
+                        </div>
+                        <div class="table">
+                            <h3>Hours of operation</h3>
+                            <table>
+                                <tr>
+                                    <th>Days</th>
+                                    <th>Hours</th>
+                                </tr>
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td>9 AM - 6 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday - Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="location">
+                            <h3>Location</h3>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44863.11580051551!2d-75.78995572089842!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1638245354136!5m2!1sen!2sca"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
                     </div>
                 </section> <!-- end section contact-->
             </div>
