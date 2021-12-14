@@ -308,19 +308,29 @@ footer a{
         margin: 0 auto;
     }
     
-    .search-f {
-        display: inline;
-    }
+
 
     nav {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .logo {
+        flex-grow: 1;
+        background-color: #222;
     }
 
     ul {
+        flex-grow: 5;
         display: flex;
         flex-direction: row;
-    
+        align-items: stretch;
+    }
+
+    .search-f {
+        flex-grow: 1;
+        display: inline;
     }
 
     .search {
@@ -334,9 +344,6 @@ footer a{
         background-color: #222;
     }
     
-    .logo {
-        background-color: #222;
-    }
     
     li {
         list-style: none;
@@ -370,7 +377,7 @@ footer a{
     /** END NAV BAR**/
 
     .intro {
-        padding: 8.5% 0;
+        padding: 4% 8.5%;
     }
         
     .intro-container {
@@ -395,13 +402,14 @@ footer a{
         display: inline;
     }
     
-/** END HEADER **/
+    /** END HEADER **/
 
 
     .about {
-        background-color: #ffe6ac;
         padding: 14px;
     }
+
+    /** END ABOUT SECTION**/
     
     main img {
         width: 100%;
@@ -432,6 +440,8 @@ footer a{
     .services-div>h3 {
         margin: 20px 14px;
     }
+
+    /** END SERVICES SECTION**/
     
     .vision {
         background-image: url(../image/vision.jpg);
@@ -450,7 +460,6 @@ footer a{
         margin: 20px 0;
     }
     
-    
     .vision-text button {
         background-color: rgba(34, 34, 34, 0.8);
         border: 1px solid #c78c06;
@@ -458,6 +467,8 @@ footer a{
         color: #fff;
     }
     
+    /** END VISION SECTION**/
+
     .bob, .john {
         background-color: #ffe6ac;
     }
@@ -478,6 +489,8 @@ footer a{
     .bob-txt>p, .john-txt>p{
         padding-bottom: 28px;
     }
+
+    /** END OUR TEAM SECTIOM**/
     
     .contact h2 {
         margin: 68px 0 32px 0;
