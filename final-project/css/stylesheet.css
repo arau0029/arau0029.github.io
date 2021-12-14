@@ -28,13 +28,13 @@ header {
 
 .search-b {
     padding: 0 10px;
-    color:#c58b22;
-    border-color: #c58b22;
+    color:#c78c06;
+    border-color: #c78c06;
     background-color: #222;
 }
 
 .logo {
-    background-color: #c58b22;
+    background-color: #c78c06;
 }
 
 li {
@@ -49,7 +49,7 @@ nav {
 nav ul li a {
     font-size: 18px;
     text-decoration: none;
-    color: #c58b22;
+    color: #c78c06;
     display: block;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -82,7 +82,7 @@ nav li, nav form {
 
 .intro-container>button {
     color: #000;
-    background-color: #c58b22;
+    background-color: #c78c06;
     border: none;
     padding: 30px;
 }
@@ -94,7 +94,7 @@ input {
 }
 
 .home {
-    background-color: #c58b22;
+    background-color: #c78c06;
 }
 
 a.current {
@@ -156,7 +156,7 @@ main img {
 
 .vision-text button {
     background-color: rgba(34, 34, 34, 0.8);
-    border: 1px solid #c58b22;
+    border: 1px solid #c78c06;
     padding: 30px;
     color: #fff;
 }
@@ -174,7 +174,7 @@ main img {
 }
 
 .bob-txt>h4, .john-txt>h4 {
-    border-bottom: 2px solid #c58b22;
+    border-bottom: 2px solid #c78c06;
     padding: 2px 0;
 }
 
@@ -196,7 +196,7 @@ main img {
 
 .contact-form .form-button {
     margin: 20px 0;
-    color:#c58b22;
+    color:#c78c06;
     background-color: #222;
 }
 
@@ -278,15 +278,302 @@ footer{
     padding: 14px 1rem;
     background:#222;
     margin: 0 auto;
-    color:#c58b22;
+    color:#c78c06;
 }
 
 footer a{
-    color:#c58b22;
+    color:#c78c06;
 }
 
 @media screen and (min-width: 760px){
     .container {
         width: 760px;
     }
+}
+
+/** DESKTOP STYLE**/
+
+@media screen and (min-width:760px) and (max-width:1200px){
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .contain-s {
+        padding: 14px;
+    }
+    
+    header {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .search-f {
+        display: inline;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .search {
+        padding: 10px 4px;
+    }
+    
+    .search-b {
+        padding: 0 10px;
+        color:#c78c06;
+        border-color: #c78c06;
+        background-color: #222;
+    }
+    
+    .logo {
+        background-color: #222;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    nav {
+        background-color: #222;
+        padding:14px;
+    }
+    
+    nav ul li a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #c78c06;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    nav li, nav form {
+        text-align:center;
+    }
+    
+    .home {
+        background-color: #c78c06;
+    }
+    
+    a.current {
+     color: #222;
+    }
+    
+    /** END NAV BAR**/
+
+    .intro {
+        padding: 8.5% 0;
+    }
+        
+    .intro-container {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 14px;
+    }
+    
+    .intro-container>p {
+        color: #fff;
+        margin-bottom: 14px;
+    }
+    
+    .intro-container>button {
+        color: #000;
+        background-color: #c78c06;
+        border: none;
+        padding: 30px;
+    }
+    
+    input {
+        font-size: 20px; 
+        display: inline;
+    }
+    
+/** END HEADER **/
+
+
+    .about {
+        background-color: #ffe6ac;
+        padding: 14px;
+    }
+    
+    main img {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+    
+    .services-div {
+        background-color: #ffe6ac;
+        margin-bottom: 14px;
+    }
+    
+    .print {
+        margin: 0;
+    }
+    
+    .services-div>p {
+        margin: 0 14px;
+    }
+    
+    .services-div>button {
+        margin: 14px;
+        color: #fff;
+        background-color: #222;
+        border: none;
+        padding: 30px;
+    }
+    
+    .services-div>h3 {
+        margin: 20px 14px;
+    }
+    
+    .vision {
+        background-image: url(../image/vision.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .vision-text {
+        margin: 14px;
+        color: #fff;
+        padding: 14px 0;
+    }
+    
+    .vision-text h3 {
+        margin: 20px 0;
+    }
+    
+    
+    .vision-text button {
+        background-color: rgba(34, 34, 34, 0.8);
+        border: 1px solid #c78c06;
+        padding: 30px;
+        color: #fff;
+    }
+    
+    .bob, .john {
+        background-color: #ffe6ac;
+    }
+    
+    .bob-txt, .john-txt {
+        margin: 14px;
+    }
+    
+    .bob-txt>h3, .john-txt>h3 {
+        margin: 14px 0;
+    }
+    
+    .bob-txt>h4, .john-txt>h4 {
+        border-bottom: 2px solid #c78c06;
+        padding: 2px 0;
+    }
+    
+    .bob-txt>p, .john-txt>p{
+        padding-bottom: 28px;
+    }
+    
+    .contact h2 {
+        margin: 68px 0 32px 0;
+    }
+    
+    .contact-form h3 {
+        margin: 14px 0;
+    }
+    
+    .contact-form form {
+        margin: 14px 0;
+    }
+    
+    .contact-form .form-button {
+        margin: 20px 0;
+        color:#c78c06;
+        background-color: #222;
+    }
+    
+    .padding {
+        margin-top: 0.4rem;
+        margin-bottom: 0.6rem;
+        width: 100%;
+        height: 1.5rem;
+    }
+    
+    .message {
+        height: 7rem;
+    }
+    
+    h1 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 81px;
+        line-height: 112px;
+        padding: 35px 0;
+    }
+    
+    h2 {
+        font-weight: bold;
+        font-size: 48px;
+        margin: 34px 0 20px 0;
+    }
+    
+    h3 {
+        font-weight: bold;
+        font-size: 32px;
+    }
+    
+    h4 {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 14px 0px;
+    }
+    
+    button {
+        font-size: 24px;
+    }
+    
+    table {
+        width: 100%;
+        margin: 14px 0;
+    }
+    
+    th {
+        background-color: #ffe6ac;
+    }
+    
+    th, td {
+        font-size: 14px;
+        border: 1px solid #000;
+        padding: 1rem;
+    }
+    
+    iframe {
+        margin: 14px 0;
+        width: 100%;
+    }
+    
+    footer {
+        font-size: 14px;
+    }
+    
+    .block {
+        font-size: 14px;
+    }
+    
+    footer{
+        max-width: 1172px;
+        padding: 14px 1rem;
+        background:#222;
+    }
+    
 }
