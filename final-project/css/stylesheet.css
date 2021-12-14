@@ -80,6 +80,13 @@ nav li, nav form {
     margin-bottom: 14px;
 }
 
+.intro-container>button {
+    color: #000;
+    background-color: #c58b22;
+    border: none;
+    padding: 30px;
+}
+
 input {
     font-family: Arial;
     font-size: 18px; 
@@ -93,6 +100,8 @@ a.current {
  color: #222;
 }
 
+
+
 h1 {
     font-weight: bold;
     color: #fff;
@@ -100,7 +109,6 @@ h1 {
     line-height: 98px;
     padding: 35px 0;
 }
-
 
 h2 {
     font-weight: bold;
