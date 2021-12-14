@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
 }
 
-.contain-m {
+.contain-s {
     padding: 14px;
 }
 
@@ -90,6 +90,7 @@ nav li, nav form {
 input {
     font-family: Arial;
     font-size: 18px; 
+    display: block;
 }
 
 .home {
@@ -100,7 +101,64 @@ a.current {
  color: #222;
 }
 
+.about {
+    background-color: #ffe6ac;
+    padding: 14px;
+}
 
+main img {
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.services-div {
+    background-color: #ffe6ac;
+    margin-bottom: 14px;
+}
+
+.print {
+    margin: 0;
+}
+
+.services-div>p {
+    margin: 0 14px;
+}
+
+.services-div>button {
+    margin: 14px;
+    color: #fff;
+    background-color: #222;
+    border: none;
+    padding: 30px;
+}
+
+.services-div>h3 {
+    margin: 20px 14px;
+}
+
+.vision {
+    background-image: url(../image/vision.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vision-text {
+    margin: 14px;
+    color: #fff;
+    padding: 14px 0;
+}
+
+.vision-text h3 {
+    margin: 20px 0;
+}
+
+.vision-text button {
+    background-color: rgba(34, 34, 34, 0.8);
+    border: 1px solid #c58b22;
+    padding: 30px;
+    color: #fff;
+}
 
 h1 {
     font-weight: bold;
@@ -113,6 +171,7 @@ h1 {
 h2 {
     font-weight: bold;
     font-size: 48px;
+    margin: 34px 0 20px 0;
 }
 
 h3 {
@@ -128,6 +187,7 @@ h4 {
 p {
     font-size: 14px;
     line-height: 21px;
+    margin: 14px 0px;
 }
 
 button {
@@ -136,6 +196,10 @@ button {
 
 th, td {
     font-size: 14px;
+}
+
+iframe {
+    margin: 14px;
 }
 
 footer {
