@@ -291,7 +291,10 @@ footer a{
     }
 }
 
-/** DESKTOP STYLE**/
+      /**                               /
+     /         DESKTOP STYLE           /
+    /                               **/
+
 
 @media screen and (min-width:760px) and (max-width:1200px){
     .container {
@@ -300,7 +303,7 @@ footer a{
     }
     
     .contain-s {
-        padding: 14px;
+        padding: 0 8.5%;
     }
     
     header {
@@ -308,29 +311,23 @@ footer a{
         margin: 0 auto;
     }
     
-
+    .search-container {
+        display: flex;
+        align-items: center;
+    }
 
     nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .logo {
-        flex-grow: 1;
-        background-color: #222;
     }
 
     ul {
-        flex-grow: 5;
         display: flex;
+        align-content: space-around;
         flex-direction: row;
-        align-items: stretch;
-    }
-
-    .search-f {
-        flex-grow: 1;
-        display: inline;
+        align-items: center;
+        justify-content: space-around;
+        flex-grow: 4;
     }
 
     .search {
@@ -344,6 +341,9 @@ footer a{
         background-color: #222;
     }
     
+    .logo {
+        background-color: #222;
+    }
     
     li {
         list-style: none;
@@ -403,10 +403,20 @@ footer a{
     }
     
     /** END HEADER **/
-
+    .about-txt h2 {
+        margin: 20px 0;
+    }
 
     .about {
-        padding: 14px;
+        padding: 14px 8.5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .about-img, .about-txt {
+        flex-basis: 100%;
     }
 
     /** END ABOUT SECTION**/
@@ -469,14 +479,31 @@ footer a{
     
     /** END VISION SECTION**/
 
-    .bob, .john {
+    .team img {
+        margin: 0;
+    }
+
+    .john {
+        display: flex;
+        flex-direction: row;
+        background-color: #ffe6ac;
+    }
+
+    .bob {
+        display: flex;
+        flex-direction: row-reverse;
         background-color: #ffe6ac;
     }
     
-    .bob-txt, .john-txt {
-        margin: 14px;
+    .bob-txt, .john-txt, .bob-img, .john-img {
+        flex-basis: 100%;
     }
-    
+
+    .bob-txt, .john-txt {
+        margin: 0;
+        padding: 14px;
+    }
+
     .bob-txt>h3, .john-txt>h3 {
         margin: 14px 0;
     }
@@ -492,6 +519,27 @@ footer a{
 
     /** END OUR TEAM SECTIOM**/
     
+    .flex-contact {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .table {
+        flex: 1 1 49%;
+        order: 3;
+    }
+
+    .contact-form {
+        flex: 1 1 49%;
+        order: 1;
+    }
+    
+    .location {
+        flex: 1 1 49%;
+        order: 2;
+    }
+
     .contact h2 {
         margin: 68px 0 32px 0;
     }
@@ -520,13 +568,15 @@ footer a{
     .message {
         height: 7rem;
     }
+
+    /** END CONTACT SECTION **/
     
     h1 {
         font-weight: bold;
         color: #fff;
         font-size: 81px;
         line-height: 112px;
-        padding: 35px 0;
+        padding: 35px 0 0 0;
     }
     
     h2 {
